@@ -94,6 +94,29 @@ export default createSchema({
                     isHighlighted: true,
                   },
                 },
+                {
+                  title: 'imagePosition',
+                  name: 'position',
+                  type: 'string',
+                  options: {
+                    list: [
+                      {
+                        title: 'Center',
+                        value: 'center',
+                      },
+                      {
+                        title: 'Left',
+                        value: 'left',
+                      },
+                      {
+                        title: 'Right',
+                        value: 'right',
+                      },
+                    ],
+                    layout: 'radio',
+                    isHighlighted: true,
+                  },
+                },
               ],
               options: {
                 hotspot: true,
